@@ -1,17 +1,19 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 class node {
 public:
-	String info;
+	string info;
 	node* leftchild;
 	node* rightchild;
 
-	// construktor for the node class
-	node(String i, node* I, node* r)
+	// Constructor for the node class 
+	 node(string i, node* I, node* r)
 	{
 		info = i;
 		leftchild = I;
 		rightchild = r;
 	}
 };
+
