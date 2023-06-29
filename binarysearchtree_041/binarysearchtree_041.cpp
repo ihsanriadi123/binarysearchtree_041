@@ -73,5 +73,11 @@ public:
 		}
 	}
 
-
+	void preorder(node* ptr) {
+		if (ROOT == NULL) {
+			cout << "Tree is empty" << endl;
+			return;
+		}
+		if
+	}
 };
