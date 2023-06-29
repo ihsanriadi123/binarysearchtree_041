@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+
 class node {
 public:
 	string info;
@@ -30,7 +31,6 @@ public:
 		newnode->info = element; //Assign value to the data field of the new node
 		newnode->leftchild = NULL; // make the left child of the new node point to null
 		newnode->rightchild = NULL; // make the left child of the new node point to null
-
 
 		node* parent = NULL;
 		node* currentnode = NULL;
