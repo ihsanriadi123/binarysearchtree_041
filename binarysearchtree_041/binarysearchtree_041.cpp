@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-
 class node {
 public:
 	string info;
@@ -64,6 +63,10 @@ public:
 
 	void inorder(node* ptr) {
 		if (ROOT == NULL) {
+			cout << "Tree is empty" << endl;
+			return;
+		}
+		if (ptr != NULL) {
 
 		}
 	}
